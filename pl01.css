@@ -1,0 +1,45 @@
+.orange {
+    color: orange;
+}
+.vora_inferior_verda {
+    border-bottom: 5px dotted;
+}
+.orange.vora_inferior_verda{
+    border-bottom-style: double;
+}
+article>.vora_inferior_verda{
+    background-color: plum;
+    padding-top: 20px;
+}
+article .vora_inferior_verda{
+    border-top: 5px solid red;
+}
+li:nth-child(n+2){
+    margin-left: 20px;
+    color: green;
+}
+li:nth-child(2n+1){
+    color: red;
+
+}
+li:nth-child(1){
+    text-decoration: underline;
+}
+li:last-child{
+    text-decoration: line-through;
+}
+article:nth-child(3)> h1{
+    color:purple;
+}
+article:nth-child(3)> h1:hover{
+    background-color: bisque;
+}
+article:nth-child(3):hover> p{
+    background-color: rgb(196, 239, 255);
+}
+[id]{
+    cursor: crosshair;
+}
+li+li{
+    background-color: orange;
+}

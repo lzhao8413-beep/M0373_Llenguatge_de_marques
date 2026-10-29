@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <nav>
+        <a href="" ></a>
+    </nav>
+    <style>
+        h1 {
+            background-color: antiquewhite;
+            border-left: 5px dashed orange;
+        }
+        a {
+            color: rgb(211, 169, 118) ;
+        }
+        #Grup1_grup2 {
+            border-color: rgb(120, 195, 120);
+        }
+    </style>
+    <link rel="stylesheet" href="pl01.css">
+</head>
+
+<body>
+    <header>
+        <img src="HTML.webp" alt="Meme html i css" title="Html i css" width="400" height="200"/>
+        <h1 style="color:rgb(11, 140, 157); text-decoration: underline;">Informació sobre codi HTML</h1>
+        <h2>Tot el que sempre he volgut saber sobre html</h2>
+        <nav>
+            <a href="#Grup1_grup2">Grup1_grup2</a>
+            <a href="#Grup3">Grup1_grup2</a>
+            <a href="#Grup4">Grup1_grup2</a>
+        </nav>
+        <dl>
+            <dt>L'etiqueta defineix una llista de descripcions "dl".</dt>
+            <dd>L'etiqueta s'utilitza conjuntament amb "dt" (defineix termes/noms) i "dd" (descriu cada terme/nom).</dd>
+        </dl>
+    </header>
+    <main>
+        <section id="Grup1_grup2">
+            <header>
+                <h1 id="primer_grup" class="orange"> Grup 1 i Grup 2 </h1>
+                <h2 class="orange vora_inferior_verda">Informació sobre llistes</h2>
+            </header>
+            <article>
+                <h1 class="vora_inferior_verda">Grup  1</h1>
+                <p class="orange vora_inferior_verda">Parlarem sobres:
+                    <ul>
+                        <li>ul</li>
+                        <li>li</li>
+                        <li>adress</li>
+                        <li>àncores</li>
+                        <li>id</li>
+                        <li>mailto</li>
+                    </ul>
+                </p>
+            </article>
+            <article>
+                <h1>Àrticle</h1>
+                <p> Es representen amb el tag A i vinculen un text anm un altre recurs</p>
+                <a href="https://stucom.com"> Stucom </a>
+            </article>
+            <article>
+                <h1>Atribut Adress</h1>
+                <p>Agrupa informació de contacte</p>
+                <address>
+                    <a href="mailto:cristian.catalan@stucom.com">
+                        email
+                    </a> <br>
+                    <a href="tel:+635728398">Telefon</a>
+                </address>
+                <aside>
+                    <p>Per més informació</p>
+                    <a href="https://developer.mozilla.org/es/"></a>
+                </aside>
+            </article>
+            <article>
+                <h1>Grup 2</h1>
+                <ol>
+                    <li>Ol</li>
+                    <li>Li</li>
+                    <li>Figure</li>
+                    <li>Figcaption</li>
+                </ol>
+                <figure>
+                    <img src="HTML.webp" alt="HTML" style="width: 50%;">
+                    <figcaption>Logotipo oficial del lenguaje de marcas HTML5.</figcaption>
+                </figure>
+            </article>
+        </section>
+        <section id="Grup3">
+                <h1>Grup 3</h1>
+                <h2>Informació sobre taules</h2>
+                <section>
+                <table>
+                    <tr colspan="2" >
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                    </tr>
+                    <tr rowspan="2">
+                        <td>Lei</td>
+                        <td>Zhao</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                        <td>Zhao</td>
+                    </tr>
+                </table>
+                </section>
+        </section>
+    <section id="Grup4">
+            <h1>Grup 4</h1>
+            <h2>Altes marques</h2>
+            <p>Me levanto a las 7:00 de la mañana. A las 7:30, <strong>en casa</strong>. A las <time datetime="08:30">8:30</time> voy al instituto en autobús.</p>
+            <details>
+                <summary>Detalles importantes</summary>
+                <p>Esta es información adicional que se puede mostrar u ocultar.</p>
+</details>
+    </section>
+    </main>
+
+    <footer>
+        <!-- Aqui la informació sobre el peu de página -->
+    </footer>
+
+</body>
+
+</html>
